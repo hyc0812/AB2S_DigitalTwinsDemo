@@ -37,8 +37,8 @@ namespace DeviceSimulator
         //#####################################################################
         //Replace these for the correct device simulation
         //#####################################################################
-        private static string deviceConnectionString = deviceConnectionString1;
-        private static string deviceId = device1Name;
+        private static string deviceConnectionString = deviceConnectionString3;
+        private static string deviceId = device3Name;
 
         public static async Task<string> CreateDeviceIdentityAsync(string deviceName)
         {
